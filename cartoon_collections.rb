@@ -13,6 +13,6 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.select { |a| a == cheese_types[0] || a == cheese_types[1] || a == cheese_types[2] }.to_s
+  array.select { |a| a == cheese_types[0] || a == cheese_types[1] || a == cheese_types[2] }
   
 end
